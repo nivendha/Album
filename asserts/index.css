@@ -83,3 +83,51 @@
     width: 50%;
     margin: 20px 0;
 }
+
+
+/* Main content */
+
+.main-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: 1px solid;
+    margin: 10px;
+}
+
+.card-header {
+    background: #0e0b0873;
+    padding: 50px;
+    text-align: center;
+}
+
+.card-header h4 {
+    font-size: 28px;
+}
+
+.card-body {
+    padding: 20px;
+    min-height: 200px;
+    position: relative;
+}
+
+.card-footer>div {
+    align-items: center;
+    justify-content: center;
+}
+
+.card-footer {
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+}
+
+.btn-outline {
+    border: 1px solid;
+    margin: 5px 0;
+    border-radius: 2px;
+}
