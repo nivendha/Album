@@ -1,6 +1,6 @@
 /* General css */
 
-body {
+.main {
     width: 100%;
 }
 
@@ -11,6 +11,23 @@ body {
 .view-port-center {
     width: 60%;
     margin: auto;
+}
+
+.btn {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #115ce6;
+    color: #ffff;
+}
+
+.btn-grey {
+    background-color: #2a58ac87;
+    color: #ffff;
 }
 
 
@@ -41,4 +58,28 @@ body {
 .navigation-bar .menu-btn div {
     border: 1px solid rgb(253, 253, 253);
     margin: 6px 0;
+}
+
+
+/* Jumbotorn */
+
+.jumbotron {
+    background-color: #f8e9e9;
+    padding: 100px 0px;
+}
+
+.jumbotron>div {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.jumbotron h2 {
+    font-size: 32px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    width: 50%;
+    margin: 20px 0;
 }
