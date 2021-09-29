@@ -1,0 +1,44 @@
+/* General css */
+
+body {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.view-port-center {
+    width: 60%;
+    margin: auto;
+}
+
+
+/* Navbar css */
+
+.navigation-bar {
+    background-color: #343a40;
+    color: #ffff;
+}
+
+.navigation-bar>div {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navigation-bar h4 {
+    font-weight: 700;
+}
+
+.navigation-bar .menu-btn {
+    border: 1px solid rgb(253, 253, 253);
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.navigation-bar .menu-btn div {
+    border: 1px solid rgb(253, 253, 253);
+    margin: 6px 0;
+}
